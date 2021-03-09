@@ -123,8 +123,6 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
-    'github_personal_access_token' => env('GITHUB_PERSONAL_ACCESS_TOKEN'),
-
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
