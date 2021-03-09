@@ -5,6 +5,7 @@ This is a simple Laravel app that can be used to write and parse GitHub flavored
 ## Requirements
 
 PHP 7.3+
+
 NPM 6+
 
 ## Installation
