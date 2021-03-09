@@ -16414,10 +16414,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prismjs_plugins_show_language_prism_show_language__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(prismjs_plugins_show_language_prism_show_language__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var prismjs_themes_prism_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! prismjs/themes/prism.css */ "./node_modules/prismjs/themes/prism.css");
 
- // import "prismjs/components/prism-clike";
-// import "prismjs/components/prism-markup-templating";
-// import "prismjs/components/prism-bash";
-// import "prismjs/components/prism-php";
 
 
 

@@ -17,10 +17,6 @@
 <script>
 import axios from "axios";
 import Prism from "prismjs";
-// import "prismjs/components/prism-clike";
-// import "prismjs/components/prism-markup-templating";
-// import "prismjs/components/prism-bash";
-// import "prismjs/components/prism-php";
 
 window.Prism = Prism;
 
