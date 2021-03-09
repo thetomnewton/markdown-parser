@@ -2,6 +2,11 @@
 
 This is a simple Laravel app that can be used to write and parse GitHub flavored markdown. It uses the GitHub API to do so.
 
+## Requirements
+
+PHP 7.3+
+NPM 6+
+
 ## Installation
 
 Setup the repository as follows:
@@ -10,6 +15,8 @@ Setup the repository as follows:
 composer install
 cp .env.example .env
 php artisan key:generate
+npm install
+npm run dev
 ```
 
 You will also need a GitHub Personal Access Token. You can get this from clicking your GitHub profile photo in the top right when logged in, going to Settings and then Developer Settings.
