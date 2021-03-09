@@ -19,6 +19,8 @@
         "vue-loader": "^16.1.2"
     },
     "dependencies": {
+        "babel-plugin-prismjs": "^2.0.1",
+        "prismjs": "^1.23.0",
         "vue": "^3.0.7"
     }
 }
