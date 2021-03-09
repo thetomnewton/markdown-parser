@@ -1,6 +1,6 @@
 # Markdown Parser
 
-This is a simple Laravel app that can be used to write and parse GitHub flavored markdown. It uses the GitHub API to do so.
+This is a simple Laravel app that can be used to write and parse GitHub flavored markdown.
 
 ## Requirements
 
