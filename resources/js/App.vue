@@ -3,7 +3,7 @@
         <div class="w-1/2 border-r h-screen overflow-auto">
             <textarea
                 ref="content"
-                class="block w-full p-4 h-full"
+                class="block w-full p-4 h-full bg-gray-50 rounded-none"
                 autofocus
                 @input="input"
             ></textarea>

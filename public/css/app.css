@@ -31175,6 +31175,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+* {
+  line-height: 1.6;
+}
+
 /* PrismJS 1.15.0
 https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+markup-templating+php&plugins=line-numbers */
 
@@ -31193,6 +31197,7 @@ pre[class*="language-"] {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
+  font-size: 14px !important;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -31364,29 +31369,57 @@ pre[class*="language-"].line-numbers > code {
   text-align: right;
 }
 
+.markdown-body *:first-child {
+  margin-top: 0;
+}
+
+.markdown-body p {
+  margin-bottom: 16px;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .markdown-body h1{
-  font-size:2em
+  font-size: 2em;
 }
 
 .markdown-body h2{
-  font-size:1.5em
+  font-size: 1.5em
 }
 
 .markdown-body h3{
-  font-size:1.25em
+  font-size: 1.25em
 }
 
 .markdown-body h4{
-  font-size:1em
+  font-size: 1em
 }
 
 .markdown-body h5{
-  font-size:.875em
+  font-size: .875em
 }
 
 .markdown-body h6{
-  font-size:.85em;
+  font-size: .85em;
   color:#6a737d
+}
+
+.markdown-body ul {
+  padding-left: 1.5rem;
+}
+
+.markdown-body li {
+  list-style-type: disc;
 }
 
 @media (min-width: 640px) {

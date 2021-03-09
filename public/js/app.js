@@ -16485,7 +16485,7 @@ var _hoisted_3 = {
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("textarea", {
     ref: "content",
-    "class": "block w-full p-4 h-full",
+    "class": "block w-full p-4 h-full bg-gray-50 rounded-none",
     autofocus: "",
     onInput: _cache[1] || (_cache[1] = function () {
       return $options.input.apply($options, arguments);
