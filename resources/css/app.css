@@ -4,6 +4,11 @@
 
 * {
     line-height: 1.6;
+    outline: none;
+}
+
+a {
+    @apply text-blue-600 hover:underline;
 }
 
 /* PrismJS 1.15.0
@@ -194,7 +199,8 @@ pre[class*="language-"].line-numbers > code {
     margin-top: 0;
 }
 
-.markdown-body p {
+.markdown-body p,
+.markdown-body ul {
     margin-bottom: 16px;
 }
 

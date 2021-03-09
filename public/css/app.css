@@ -31177,6 +31177,16 @@ video {
 
 * {
   line-height: 1.6;
+  outline: none;
+}
+
+a {
+  --tw-text-opacity: 1;
+  color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* PrismJS 1.15.0
@@ -31373,7 +31383,8 @@ pre[class*="language-"].line-numbers > code {
   margin-top: 0;
 }
 
-.markdown-body p {
+.markdown-body p,
+.markdown-body ul {
   margin-bottom: 16px;
 }
 

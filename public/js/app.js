@@ -16474,18 +16474,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "flex"
+  "class": "flex text-gray-900"
 };
 var _hoisted_2 = {
-  "class": "w-1/2 border-r h-screen overflow-auto"
+  "class": "w-1/2 border-r h-screen overflow-auto bg-gray-50 pb-8"
 };
 var _hoisted_3 = {
-  "class": "w-1/2 p-4 h-screen overflow-auto"
+  "class": "w-1/2 p-6 h-screen overflow-auto text-gray-800 pb-8"
 };
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "fixed bottom-0 left-0 right-0 border-t py-1 px-2 text-xs text-gray-700 bg-gray-100"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Created by "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "//twitter.com/thetomnewton",
+  target: "_blank"
+}, "@thetomnewton"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(". ")], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("textarea", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("textarea", {
     ref: "content",
-    "class": "block w-full p-4 h-full bg-gray-50 rounded-none",
+    "class": "block w-full p-6 h-full bg-transparent resize-none",
     autofocus: "",
     onInput: _cache[1] || (_cache[1] = function () {
       return $options.input.apply($options, arguments);
@@ -16498,7 +16508,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "markdown-body"
   }, null, 8
   /* PROPS */
-  , ["innerHTML"])])]);
+  , ["innerHTML"])])]), _hoisted_4], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
